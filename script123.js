@@ -28,7 +28,6 @@ async function searchImage(){
         const img_A = document.createElement("a");
         img_A.href = res.links.html;
         img_A.target = "_blank";
-        img_A.color = black;
     
         imageWrap.appendChild(img);
         imageWrap.appendChild(img_A);        
